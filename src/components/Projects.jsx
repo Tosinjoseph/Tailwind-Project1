@@ -52,7 +52,7 @@ const Projects = () => {
                 <div  className='inline-block bg-white w-3/4 px-4 py-2 shadow-md'>
                   <h2 className='text-xl font-semibold text-gray-800'>{projects.title}</h2>
                   <p className='text-gray-500 text-sm'>
-                    {projects.price} <span></span> {projects.location}
+                    {projects.price} <span className='px-1'>|</span> {projects.location}
                   </p>
                 </div>
                </div>
